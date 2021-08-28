@@ -1,0 +1,900 @@
+2021-08-26 22:18:44 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "tuncate[*] bbb"; expected "TRUNCATE"; SQL statement:
+tuncate bbb [42001-200]
+2021-08-26 22:18:51 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "truncate bbb[*]"; expected "TABLE"; SQL statement:
+truncate bbb [42001-200]
+2021-08-26 22:18:53 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "truncate bbb[*]"; expected "TABLE"; SQL statement:
+truncate bbb [42001-200]
+2021-08-28 00:02:41 jdbc[1415]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David Sedaris-Richard Yates-Dorothy Parker-Joyce Carol Oates-Lorrie Moore-Flannery O''Connor-Amy Hempel-Akhil   Sharma-Tim John... (277)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:03:18 jdbc[2407]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David W. Macdonald-Alonzo C. Addison-Sandra Baker-Mark S. Boyce-David Brown-Stephen Cobb-N. Mark Collins-C. Patrick Doncaster-J... (361)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:03:23 jdbc[2501]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('James Joyce-Walter Hettche-Hans Walter Gabler-John Paul Riquelme-John Mitchel-Michael Davitt-Canon  Doyle-P\u00e1d... (372)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:03:44 jdbc[3038]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Plato-John M. Cooper-Benjamin Jowett-Dorothea Frede-Alexander Nehamas-Paul Woodruff-Anthony Kenny-Rosamond Kent Sp... (540)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:04:02 jdbc[3530]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Cecelia Ahern-Patricia Scanlan-Gemma O''Connor-Sarah Webb-Maeve Binchy-Marian Keyes-Morag Prunty-Cathy Kelly-Colette Caddle-Mar... (329)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:04:11 jdbc[3744]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'The Paris Review-Philip Gourevitch-Rebecca West-Elizabeth Bishop-Robert  Stone-Robert Gottlieb-Richard Price-Billy Wilder-Jack ... (261)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:04:44 jdbc[4705]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Mercedes Lackey-Rosemary Edghill-Sarah A. Hoyt-Tanya Huff-Fiona Patton-Janni Lee Simner-Mickey Zucker Reichert-Judith Tarr-Larr... (260)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:04:44 jdbc[4716]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Mercedes Lackey-Tanya Huff-Mickey Zucker Reichert-Michelle Sagara West-Gary A. Braunbeck-John Helfers-Elisabeth Waters-Lawrence... (308)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:04:58 jdbc[5132]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "TITLE VARCHAR(255)": "STRINGDECODE('C\"" Is For Corpse (Kinsey Millhone #3),Sue Grafton,3.89,156865233X,9781568652337,eng,181,87,5\n15323,The Lord of t... (65535)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:05:30 jdbc[5866]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Delia Sherman-Theodora Goss-K. Tempest Bradford-Karen Jordan Allen-Rachel Pollack-Veronica Schanoes-Mikal Trimm-Co... (324)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:05:31 jdbc[5910]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Gary Russell-Peter Anghelides-J. Shaun Lyon-Jon de Burgh Miller-Eddie Robson-Todd Green-Andy Russell-Andrew Collins-Kathryn Sul... (274)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:05:32 jdbc[5998]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Martin H. Greenberg-Brittiany A. Koren-Brian Stableford-Mickey Zucker Reichert-Fiona Patton-Jim C. Hines-Esther M. Friesner-Don... (291)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:05:32 jdbc[6000]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Martin H. Greenberg-Jack Nimersheim-Jane Yolen-Jack C. Haldeman II-Harry Turtledove-Laura Resnick-Mike Resnick-Karen Haber-Jane... (353)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:05:32 jdbc[6001]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('John Helfers-Esther M. Friesner-Nina Kiriki Hoffman-Bruce Holland Rogers-Peter Crowther-R. Davis-Charles de Lint-E... (331)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:05:32 jdbc[6002]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Jean Rabe-Martin H. Greenberg-Stephen Leigh-Gene DeWeese-Joe Masdon-Donald J. Bingle-Skip Williams-Penny Williams-Pierce Askegr... (303)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:05:34 jdbc[6156]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'James Ellroy-Otto Penzler-John Biguenet-Michael Connelly-Thomas H. Cook-Sean Doolittle-Brendan DuBois-David Edgerley Gates-Joe ... (309)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:05:36 jdbc[6319]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Rob Thomas-Leah Wilson-Heather Havrilesky-Amy Berner-Lynne Edwards-John  Ramos-Alafair Burke-Chris McCubbin-Lawrence Watt-Evans... (288)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:05:42 jdbc[6739]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Douglas A. Anderson-Frank R. Stockton-Ludwig Tieck-Richard Garnett-H. Rider Haggard-Andrew Lang-William Hope Hodgson-E.A. Wyke-... (334)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:05:43 jdbc[6802]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David G. Hartwell-Robert Aickman-Charlotte Perkins Gilman-William Faulkner-Robert Smythe Hichens-Richard Matheson-Joanna Russ-D... (339)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:05:43 jdbc[6803]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David G. Hartwell-Fritz Leiber-Fitz-James O''Brien-Shirley Jackson-Ambrose Bierce-Edith Wharton-Algernon Blackwood-Thomas M. Di... (282)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:06:06 jdbc[8075]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Margaret Weis-Esther M. Friesner-Roger Zelazny-Bruce Holland Rogers-Robin Wayne Bailey-Janet Pack-Lawrence Schimel-Jody Lynn Ny... (285)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:06:06 jdbc[8097]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Margaret Weis-Jane Lindskold-Linda Baker-Kathleen M. Massie-Ferch-Cynthia Ward-Lawrence C. Connolly-John Tigges-Kate Novak-Jane... (321)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:06:10 jdbc[8296]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Margaret Weis-Ursula K. Le Guin-Roger Zelazny-Christopher Stasheff-Mercedes Lackey-Ray Bradbury-Andre Norton-Jack Vance-Raymond... (329)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:06:10 jdbc[8306]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Margaret Weis-Janet Pack-Bruce Holland Rogers-Nina Kiriki Hoffman-Tanya Huff-Linda P. Baker-Michelle Sagara West-N... (289)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:06:20 jdbc[8912]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Nicholas Dawidoff-Ernest Lawrence Thayer-Jacques Barzun-Robert Frost-John Updike-Leroy Satchel Paige-Bill Veeck-Murray Kempton-... (571)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:06:26 jdbc[9389]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Mike Ashley-Eric Brown-Keith Brooke-Johan Heliot-Kevin J. Anderson-Sarah A. Hoyt-Justina Robson-Adam Roberts-Paul Di Filippo-Ti... (353)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:06:28 jdbc[9541]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Bill Buford-Clive Sinclair-Graham Swift-Martin Amis-Rose Tremain-A.N. Wilson-Pat Barker-Julian Barnes-Ursula Bentl... (293)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:06:29 jdbc[9605]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'James Patterson-Ted Bell-Raelynn Hillhouse-Gregg Hurwitz-Alex Kava-J.A. Konrath-John Lescroart-David Liss-Eric Van Lustbader-De... (461)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:06:29 jdbc[9618]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Lauren Henderson-Chris Manby-Sarah Mlynowski-Jill A. Davis-Stella Duffy-Lisa Jewell-Marian Keyes-Sophie Kinsella-A... (287)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:06:32 jdbc[9816]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AVERAGE_RATING VARCHAR(255)": "STRINGDECODE('Jr.-C.S. Lewis-P.G. Wodehouse-Michael Moorcock-L. Sprague de Camp-Fletcher Pratt-Eric Knight-Mervyn Peake-Piers An... (298)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:06:35 jdbc[10038]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Dave Land-Peter David-Dave Cooper-Dan Jolley-Doug Wheatley-Tom Fowler-Kilian Plunkett-Sean Phillips-Ryder Windham-John Ostrande... (317)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:06:37 jdbc[10218]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('H.P. Lovecraft-James Turner-Clark Ashton Smith-Robert E. Howard-Frank Belknap Long-August Derleth-Robert Bloch-Hen... (260)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:06:41 jdbc[10516]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Jennifer O''Connell-Meg Cabot-Megan McCafferty-Melissa Senate-Diana Peterfreund-Stephanie Lessing-Laura Ruby-Erica Orloff-Stace... (335)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:06:43 jdbc[10620]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Stephen Chbosky-William Clifford-Matthew Loren Cohen-Aury Wallington-Dennis G. Dillingham Jr.-Davy Rothbart-Clementyne Howard-M... (286)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:06:44 jdbc[10739]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Glenn Yeffeth-Don DeBrandt-Cory Doctorow-Bruce Bethke-Adam Roberts-Lawrence Watt-Evans-Selina Rosen-Mark W. Tiedemann-Jacquelin... (301)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:06:44 jdbc[10755]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Arthur  Miller-Gerald Weales-Henry Steele Commager-Penelope Curtis-Stephen Fender-Henry Hewes-Harold Hobson-Albert... (458)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 00:06:47 jdbc[10915]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Garrison Keillor-Charles Bukowski-Robert Burns-Hayden Carruth-Raymond Carver-Billy Collins-No\u00ebl Coward-Carl D... (750)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 11:31:48 jdbc[1415]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David Sedaris-Richard Yates-Dorothy Parker-Joyce Carol Oates-Lorrie Moore-Flannery O''Connor-Amy Hempel-Akhil   Sharma-Tim John... (277)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:02:30 jdbc[1415]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David Sedaris-Richard Yates-Dorothy Parker-Joyce Carol Oates-Lorrie Moore-Flannery O''Connor-Amy Hempel-Akhil   Sharma-Tim John... (277)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:02:51 jdbc[2407]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David W. Macdonald-Alonzo C. Addison-Sandra Baker-Mark S. Boyce-David Brown-Stephen Cobb-N. Mark Collins-C. Patrick Doncaster-J... (361)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:02:53 jdbc[2501]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('James Joyce-Walter Hettche-Hans Walter Gabler-John Paul Riquelme-John Mitchel-Michael Davitt-Canon  Doyle-P\u00e1d... (372)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:03:04 jdbc[3038]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Plato-John M. Cooper-Benjamin Jowett-Dorothea Frede-Alexander Nehamas-Paul Woodruff-Anthony Kenny-Rosamond Kent Sp... (540)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:03:17 jdbc[3530]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Cecelia Ahern-Patricia Scanlan-Gemma O''Connor-Sarah Webb-Maeve Binchy-Marian Keyes-Morag Prunty-Cathy Kelly-Colette Caddle-Mar... (329)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:03:24 jdbc[3744]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'The Paris Review-Philip Gourevitch-Rebecca West-Elizabeth Bishop-Robert  Stone-Robert Gottlieb-Richard Price-Billy Wilder-Jack ... (261)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:03:51 jdbc[4705]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Mercedes Lackey-Rosemary Edghill-Sarah A. Hoyt-Tanya Huff-Fiona Patton-Janni Lee Simner-Mickey Zucker Reichert-Judith Tarr-Larr... (260)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:03:51 jdbc[4716]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Mercedes Lackey-Tanya Huff-Mickey Zucker Reichert-Michelle Sagara West-Gary A. Braunbeck-John Helfers-Elisabeth Waters-Lawrence... (308)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:04:03 jdbc[5132]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "TITLE VARCHAR(255)": "STRINGDECODE('C\"" Is For Corpse (Kinsey Millhone #3),Sue Grafton,3.89,156865233X,9781568652337,eng,181,87,5\n15323,The Lord of t... (65535)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:04:23 jdbc[5866]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Delia Sherman-Theodora Goss-K. Tempest Bradford-Karen Jordan Allen-Rachel Pollack-Veronica Schanoes-Mikal Trimm-Co... (324)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:04:24 jdbc[5910]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Gary Russell-Peter Anghelides-J. Shaun Lyon-Jon de Burgh Miller-Eddie Robson-Todd Green-Andy Russell-Andrew Collins-Kathryn Sul... (274)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:04:27 jdbc[5998]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Martin H. Greenberg-Brittiany A. Koren-Brian Stableford-Mickey Zucker Reichert-Fiona Patton-Jim C. Hines-Esther M. Friesner-Don... (291)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:04:27 jdbc[6000]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Martin H. Greenberg-Jack Nimersheim-Jane Yolen-Jack C. Haldeman II-Harry Turtledove-Laura Resnick-Mike Resnick-Karen Haber-Jane... (353)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:04:27 jdbc[6001]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('John Helfers-Esther M. Friesner-Nina Kiriki Hoffman-Bruce Holland Rogers-Peter Crowther-R. Davis-Charles de Lint-E... (331)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:04:27 jdbc[6002]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Jean Rabe-Martin H. Greenberg-Stephen Leigh-Gene DeWeese-Joe Masdon-Donald J. Bingle-Skip Williams-Penny Williams-Pierce Askegr... (303)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:04:31 jdbc[6156]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'James Ellroy-Otto Penzler-John Biguenet-Michael Connelly-Thomas H. Cook-Sean Doolittle-Brendan DuBois-David Edgerley Gates-Joe ... (309)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:04:36 jdbc[6319]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Rob Thomas-Leah Wilson-Heather Havrilesky-Amy Berner-Lynne Edwards-John  Ramos-Alafair Burke-Chris McCubbin-Lawrence Watt-Evans... (288)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:04:48 jdbc[6739]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Douglas A. Anderson-Frank R. Stockton-Ludwig Tieck-Richard Garnett-H. Rider Haggard-Andrew Lang-William Hope Hodgson-E.A. Wyke-... (334)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:04:49 jdbc[6802]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David G. Hartwell-Robert Aickman-Charlotte Perkins Gilman-William Faulkner-Robert Smythe Hichens-Richard Matheson-Joanna Russ-D... (339)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:04:49 jdbc[6803]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David G. Hartwell-Fritz Leiber-Fitz-James O''Brien-Shirley Jackson-Ambrose Bierce-Edith Wharton-Algernon Blackwood-Thomas M. Di... (282)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:05:26 jdbc[8075]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Margaret Weis-Esther M. Friesner-Roger Zelazny-Bruce Holland Rogers-Robin Wayne Bailey-Janet Pack-Lawrence Schimel-Jody Lynn Ny... (285)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:05:27 jdbc[8097]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Margaret Weis-Jane Lindskold-Linda Baker-Kathleen M. Massie-Ferch-Cynthia Ward-Lawrence C. Connolly-John Tigges-Kate Novak-Jane... (321)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:05:33 jdbc[8296]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Margaret Weis-Ursula K. Le Guin-Roger Zelazny-Christopher Stasheff-Mercedes Lackey-Ray Bradbury-Andre Norton-Jack Vance-Raymond... (329)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:05:33 jdbc[8306]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Margaret Weis-Janet Pack-Bruce Holland Rogers-Nina Kiriki Hoffman-Tanya Huff-Linda P. Baker-Michelle Sagara West-N... (289)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:05:50 jdbc[8912]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Nicholas Dawidoff-Ernest Lawrence Thayer-Jacques Barzun-Robert Frost-John Updike-Leroy Satchel Paige-Bill Veeck-Murray Kempton-... (571)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:06:04 jdbc[9389]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Mike Ashley-Eric Brown-Keith Brooke-Johan Heliot-Kevin J. Anderson-Sarah A. Hoyt-Justina Robson-Adam Roberts-Paul Di Filippo-Ti... (353)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:06:08 jdbc[9541]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Bill Buford-Clive Sinclair-Graham Swift-Martin Amis-Rose Tremain-A.N. Wilson-Pat Barker-Julian Barnes-Ursula Bentl... (293)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:06:10 jdbc[9605]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'James Patterson-Ted Bell-Raelynn Hillhouse-Gregg Hurwitz-Alex Kava-J.A. Konrath-John Lescroart-David Liss-Eric Van Lustbader-De... (461)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:06:10 jdbc[9618]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Lauren Henderson-Chris Manby-Sarah Mlynowski-Jill A. Davis-Stella Duffy-Lisa Jewell-Marian Keyes-Sophie Kinsella-A... (287)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:06:15 jdbc[9816]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AVERAGE_RATING VARCHAR(255)": "STRINGDECODE('Jr.-C.S. Lewis-P.G. Wodehouse-Michael Moorcock-L. Sprague de Camp-Fletcher Pratt-Eric Knight-Mervyn Peake-Piers An... (298)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:06:22 jdbc[10038]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Dave Land-Peter David-Dave Cooper-Dan Jolley-Doug Wheatley-Tom Fowler-Kilian Plunkett-Sean Phillips-Ryder Windham-John Ostrande... (317)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:06:26 jdbc[10218]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('H.P. Lovecraft-James Turner-Clark Ashton Smith-Robert E. Howard-Frank Belknap Long-August Derleth-Robert Bloch-Hen... (260)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:06:35 jdbc[10516]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Jennifer O''Connell-Meg Cabot-Megan McCafferty-Melissa Senate-Diana Peterfreund-Stephanie Lessing-Laura Ruby-Erica Orloff-Stace... (335)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:06:38 jdbc[10620]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Stephen Chbosky-William Clifford-Matthew Loren Cohen-Aury Wallington-Dennis G. Dillingham Jr.-Davy Rothbart-Clementyne Howard-M... (286)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:06:41 jdbc[10739]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Glenn Yeffeth-Don DeBrandt-Cory Doctorow-Bruce Bethke-Adam Roberts-Lawrence Watt-Evans-Selina Rosen-Mark W. Tiedemann-Jacquelin... (301)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:06:41 jdbc[10755]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Arthur  Miller-Gerald Weales-Henry Steele Commager-Penelope Curtis-Stephen Fender-Henry Hewes-Harold Hobson-Albert... (458)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:06:46 jdbc[10915]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Garrison Keillor-Charles Bukowski-Robert Burns-Hayden Carruth-Raymond Carver-Billy Collins-No\u00ebl Coward-Carl D... (750)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:09:20 jdbc[1415]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David Sedaris-Richard Yates-Dorothy Parker-Joyce Carol Oates-Lorrie Moore-Flannery O''Connor-Amy Hempel-Akhil   Sharma-Tim John... (277)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:09:49 jdbc[2407]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David W. Macdonald-Alonzo C. Addison-Sandra Baker-Mark S. Boyce-David Brown-Stephen Cobb-N. Mark Collins-C. Patrick Doncaster-J... (361)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:09:51 jdbc[2501]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('James Joyce-Walter Hettche-Hans Walter Gabler-John Paul Riquelme-John Mitchel-Michael Davitt-Canon  Doyle-P\u00e1d... (372)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:10:06 jdbc[3038]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Plato-John M. Cooper-Benjamin Jowett-Dorothea Frede-Alexander Nehamas-Paul Woodruff-Anthony Kenny-Rosamond Kent Sp... (540)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:10:19 jdbc[3530]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Cecelia Ahern-Patricia Scanlan-Gemma O''Connor-Sarah Webb-Maeve Binchy-Marian Keyes-Morag Prunty-Cathy Kelly-Colette Caddle-Mar... (329)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:10:26 jdbc[3744]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'The Paris Review-Philip Gourevitch-Rebecca West-Elizabeth Bishop-Robert  Stone-Robert Gottlieb-Richard Price-Billy Wilder-Jack ... (261)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:10:51 jdbc[4705]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Mercedes Lackey-Rosemary Edghill-Sarah A. Hoyt-Tanya Huff-Fiona Patton-Janni Lee Simner-Mickey Zucker Reichert-Judith Tarr-Larr... (260)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:10:52 jdbc[4716]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Mercedes Lackey-Tanya Huff-Mickey Zucker Reichert-Michelle Sagara West-Gary A. Braunbeck-John Helfers-Elisabeth Waters-Lawrence... (308)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:11:03 jdbc[5132]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "TITLE VARCHAR(255)": "STRINGDECODE('C\"" Is For Corpse (Kinsey Millhone #3),Sue Grafton,3.89,156865233X,9781568652337,eng,181,87,5\n15323,The Lord of t... (65535)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:11:24 jdbc[5866]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Delia Sherman-Theodora Goss-K. Tempest Bradford-Karen Jordan Allen-Rachel Pollack-Veronica Schanoes-Mikal Trimm-Co... (324)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:11:25 jdbc[5910]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Gary Russell-Peter Anghelides-J. Shaun Lyon-Jon de Burgh Miller-Eddie Robson-Todd Green-Andy Russell-Andrew Collins-Kathryn Sul... (274)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:11:28 jdbc[5998]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Martin H. Greenberg-Brittiany A. Koren-Brian Stableford-Mickey Zucker Reichert-Fiona Patton-Jim C. Hines-Esther M. Friesner-Don... (291)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:11:28 jdbc[6000]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Martin H. Greenberg-Jack Nimersheim-Jane Yolen-Jack C. Haldeman II-Harry Turtledove-Laura Resnick-Mike Resnick-Karen Haber-Jane... (353)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:11:28 jdbc[6001]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('John Helfers-Esther M. Friesner-Nina Kiriki Hoffman-Bruce Holland Rogers-Peter Crowther-R. Davis-Charles de Lint-E... (331)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:11:28 jdbc[6002]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Jean Rabe-Martin H. Greenberg-Stephen Leigh-Gene DeWeese-Joe Masdon-Donald J. Bingle-Skip Williams-Penny Williams-Pierce Askegr... (303)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:11:32 jdbc[6156]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'James Ellroy-Otto Penzler-John Biguenet-Michael Connelly-Thomas H. Cook-Sean Doolittle-Brendan DuBois-David Edgerley Gates-Joe ... (309)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:11:37 jdbc[6319]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Rob Thomas-Leah Wilson-Heather Havrilesky-Amy Berner-Lynne Edwards-John  Ramos-Alafair Burke-Chris McCubbin-Lawrence Watt-Evans... (288)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:11:48 jdbc[6739]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Douglas A. Anderson-Frank R. Stockton-Ludwig Tieck-Richard Garnett-H. Rider Haggard-Andrew Lang-William Hope Hodgson-E.A. Wyke-... (334)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:11:50 jdbc[6802]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David G. Hartwell-Robert Aickman-Charlotte Perkins Gilman-William Faulkner-Robert Smythe Hichens-Richard Matheson-Joanna Russ-D... (339)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:11:50 jdbc[6803]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David G. Hartwell-Fritz Leiber-Fitz-James O''Brien-Shirley Jackson-Ambrose Bierce-Edith Wharton-Algernon Blackwood-Thomas M. Di... (282)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:12:33 jdbc[8075]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Margaret Weis-Esther M. Friesner-Roger Zelazny-Bruce Holland Rogers-Robin Wayne Bailey-Janet Pack-Lawrence Schimel-Jody Lynn Ny... (285)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:12:34 jdbc[8097]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Margaret Weis-Jane Lindskold-Linda Baker-Kathleen M. Massie-Ferch-Cynthia Ward-Lawrence C. Connolly-John Tigges-Kate Novak-Jane... (321)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:12:40 jdbc[8296]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Margaret Weis-Ursula K. Le Guin-Roger Zelazny-Christopher Stasheff-Mercedes Lackey-Ray Bradbury-Andre Norton-Jack Vance-Raymond... (329)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:12:41 jdbc[8306]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Margaret Weis-Janet Pack-Bruce Holland Rogers-Nina Kiriki Hoffman-Tanya Huff-Linda P. Baker-Michelle Sagara West-N... (289)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:12:57 jdbc[8912]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Nicholas Dawidoff-Ernest Lawrence Thayer-Jacques Barzun-Robert Frost-John Updike-Leroy Satchel Paige-Bill Veeck-Murray Kempton-... (571)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:13:10 jdbc[9389]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Mike Ashley-Eric Brown-Keith Brooke-Johan Heliot-Kevin J. Anderson-Sarah A. Hoyt-Justina Robson-Adam Roberts-Paul Di Filippo-Ti... (353)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:13:14 jdbc[9541]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Bill Buford-Clive Sinclair-Graham Swift-Martin Amis-Rose Tremain-A.N. Wilson-Pat Barker-Julian Barnes-Ursula Bentl... (293)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:13:16 jdbc[9605]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'James Patterson-Ted Bell-Raelynn Hillhouse-Gregg Hurwitz-Alex Kava-J.A. Konrath-John Lescroart-David Liss-Eric Van Lustbader-De... (461)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:13:17 jdbc[9618]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Lauren Henderson-Chris Manby-Sarah Mlynowski-Jill A. Davis-Stella Duffy-Lisa Jewell-Marian Keyes-Sophie Kinsella-A... (287)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:13:22 jdbc[9816]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AVERAGE_RATING VARCHAR(255)": "STRINGDECODE('Jr.-C.S. Lewis-P.G. Wodehouse-Michael Moorcock-L. Sprague de Camp-Fletcher Pratt-Eric Knight-Mervyn Peake-Piers An... (298)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:13:29 jdbc[10038]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Dave Land-Peter David-Dave Cooper-Dan Jolley-Doug Wheatley-Tom Fowler-Kilian Plunkett-Sean Phillips-Ryder Windham-John Ostrande... (317)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:13:34 jdbc[10218]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('H.P. Lovecraft-James Turner-Clark Ashton Smith-Robert E. Howard-Frank Belknap Long-August Derleth-Robert Bloch-Hen... (260)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:13:42 jdbc[10516]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Jennifer O''Connell-Meg Cabot-Megan McCafferty-Melissa Senate-Diana Peterfreund-Stephanie Lessing-Laura Ruby-Erica Orloff-Stace... (335)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:13:46 jdbc[10620]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Stephen Chbosky-William Clifford-Matthew Loren Cohen-Aury Wallington-Dennis G. Dillingham Jr.-Davy Rothbart-Clementyne Howard-M... (286)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:13:49 jdbc[10739]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Glenn Yeffeth-Don DeBrandt-Cory Doctorow-Bruce Bethke-Adam Roberts-Lawrence Watt-Evans-Selina Rosen-Mark W. Tiedemann-Jacquelin... (301)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:13:50 jdbc[10755]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Arthur  Miller-Gerald Weales-Henry Steele Commager-Penelope Curtis-Stephen Fender-Henry Hewes-Harold Hobson-Albert... (458)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:13:54 jdbc[10915]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Garrison Keillor-Charles Bukowski-Robert Burns-Hayden Carruth-Raymond Carver-Billy Collins-No\u00ebl Coward-Carl D... (750)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:33:36 jdbc[1415]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David Sedaris-Richard Yates-Dorothy Parker-Joyce Carol Oates-Lorrie Moore-Flannery O''Connor-Amy Hempel-Akhil   Sharma-Tim John... (277)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:34:11 jdbc[2407]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David W. Macdonald-Alonzo C. Addison-Sandra Baker-Mark S. Boyce-David Brown-Stephen Cobb-N. Mark Collins-C. Patrick Doncaster-J... (361)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:34:14 jdbc[2501]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('James Joyce-Walter Hettche-Hans Walter Gabler-John Paul Riquelme-John Mitchel-Michael Davitt-Canon  Doyle-P\u00e1d... (372)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:34:30 jdbc[3038]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Plato-John M. Cooper-Benjamin Jowett-Dorothea Frede-Alexander Nehamas-Paul Woodruff-Anthony Kenny-Rosamond Kent Sp... (540)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:34:46 jdbc[3530]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Cecelia Ahern-Patricia Scanlan-Gemma O''Connor-Sarah Webb-Maeve Binchy-Marian Keyes-Morag Prunty-Cathy Kelly-Colette Caddle-Mar... (329)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:34:52 jdbc[3744]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'The Paris Review-Philip Gourevitch-Rebecca West-Elizabeth Bishop-Robert  Stone-Robert Gottlieb-Richard Price-Billy Wilder-Jack ... (261)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:35:21 jdbc[4705]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Mercedes Lackey-Rosemary Edghill-Sarah A. Hoyt-Tanya Huff-Fiona Patton-Janni Lee Simner-Mickey Zucker Reichert-Judith Tarr-Larr... (260)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:35:21 jdbc[4716]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Mercedes Lackey-Tanya Huff-Mickey Zucker Reichert-Michelle Sagara West-Gary A. Braunbeck-John Helfers-Elisabeth Waters-Lawrence... (308)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:35:35 jdbc[5132]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "TITLE VARCHAR(255)": "STRINGDECODE('C\"" Is For Corpse (Kinsey Millhone #3),Sue Grafton,3.89,156865233X,9781568652337,eng,181,87,5\n15323,The Lord of t... (65535)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:35:59 jdbc[5866]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Delia Sherman-Theodora Goss-K. Tempest Bradford-Karen Jordan Allen-Rachel Pollack-Veronica Schanoes-Mikal Trimm-Co... (324)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:36:00 jdbc[5910]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Gary Russell-Peter Anghelides-J. Shaun Lyon-Jon de Burgh Miller-Eddie Robson-Todd Green-Andy Russell-Andrew Collins-Kathryn Sul... (274)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:36:03 jdbc[5998]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Martin H. Greenberg-Brittiany A. Koren-Brian Stableford-Mickey Zucker Reichert-Fiona Patton-Jim C. Hines-Esther M. Friesner-Don... (291)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:36:03 jdbc[6000]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Martin H. Greenberg-Jack Nimersheim-Jane Yolen-Jack C. Haldeman II-Harry Turtledove-Laura Resnick-Mike Resnick-Karen Haber-Jane... (353)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:36:03 jdbc[6001]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('John Helfers-Esther M. Friesner-Nina Kiriki Hoffman-Bruce Holland Rogers-Peter Crowther-R. Davis-Charles de Lint-E... (331)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:36:03 jdbc[6002]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Jean Rabe-Martin H. Greenberg-Stephen Leigh-Gene DeWeese-Joe Masdon-Donald J. Bingle-Skip Williams-Penny Williams-Pierce Askegr... (303)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:36:07 jdbc[6156]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'James Ellroy-Otto Penzler-John Biguenet-Michael Connelly-Thomas H. Cook-Sean Doolittle-Brendan DuBois-David Edgerley Gates-Joe ... (309)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:36:12 jdbc[6319]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Rob Thomas-Leah Wilson-Heather Havrilesky-Amy Berner-Lynne Edwards-John  Ramos-Alafair Burke-Chris McCubbin-Lawrence Watt-Evans... (288)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:36:24 jdbc[6739]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Douglas A. Anderson-Frank R. Stockton-Ludwig Tieck-Richard Garnett-H. Rider Haggard-Andrew Lang-William Hope Hodgson-E.A. Wyke-... (334)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:36:27 jdbc[6802]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David G. Hartwell-Robert Aickman-Charlotte Perkins Gilman-William Faulkner-Robert Smythe Hichens-Richard Matheson-Joanna Russ-D... (339)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:36:27 jdbc[6803]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David G. Hartwell-Fritz Leiber-Fitz-James O''Brien-Shirley Jackson-Ambrose Bierce-Edith Wharton-Algernon Blackwood-Thomas M. Di... (282)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:37:06 jdbc[8075]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Margaret Weis-Esther M. Friesner-Roger Zelazny-Bruce Holland Rogers-Robin Wayne Bailey-Janet Pack-Lawrence Schimel-Jody Lynn Ny... (285)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:37:07 jdbc[8097]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Margaret Weis-Jane Lindskold-Linda Baker-Kathleen M. Massie-Ferch-Cynthia Ward-Lawrence C. Connolly-John Tigges-Kate Novak-Jane... (321)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:37:13 jdbc[8296]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Margaret Weis-Ursula K. Le Guin-Roger Zelazny-Christopher Stasheff-Mercedes Lackey-Ray Bradbury-Andre Norton-Jack Vance-Raymond... (329)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:37:13 jdbc[8306]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Margaret Weis-Janet Pack-Bruce Holland Rogers-Nina Kiriki Hoffman-Tanya Huff-Linda P. Baker-Michelle Sagara West-N... (289)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:37:31 jdbc[8912]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Nicholas Dawidoff-Ernest Lawrence Thayer-Jacques Barzun-Robert Frost-John Updike-Leroy Satchel Paige-Bill Veeck-Murray Kempton-... (571)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:37:45 jdbc[9389]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Mike Ashley-Eric Brown-Keith Brooke-Johan Heliot-Kevin J. Anderson-Sarah A. Hoyt-Justina Robson-Adam Roberts-Paul Di Filippo-Ti... (353)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:37:50 jdbc[9541]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Bill Buford-Clive Sinclair-Graham Swift-Martin Amis-Rose Tremain-A.N. Wilson-Pat Barker-Julian Barnes-Ursula Bentl... (293)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:37:52 jdbc[9605]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'James Patterson-Ted Bell-Raelynn Hillhouse-Gregg Hurwitz-Alex Kava-J.A. Konrath-John Lescroart-David Liss-Eric Van Lustbader-De... (461)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:37:52 jdbc[9618]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Lauren Henderson-Chris Manby-Sarah Mlynowski-Jill A. Davis-Stella Duffy-Lisa Jewell-Marian Keyes-Sophie Kinsella-A... (287)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:37:58 jdbc[9816]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AVERAGE_RATING VARCHAR(255)": "STRINGDECODE('Jr.-C.S. Lewis-P.G. Wodehouse-Michael Moorcock-L. Sprague de Camp-Fletcher Pratt-Eric Knight-Mervyn Peake-Piers An... (298)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:38:05 jdbc[10038]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Dave Land-Peter David-Dave Cooper-Dan Jolley-Doug Wheatley-Tom Fowler-Kilian Plunkett-Sean Phillips-Ryder Windham-John Ostrande... (317)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:38:11 jdbc[10218]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('H.P. Lovecraft-James Turner-Clark Ashton Smith-Robert E. Howard-Frank Belknap Long-August Derleth-Robert Bloch-Hen... (260)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:38:20 jdbc[10516]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Jennifer O''Connell-Meg Cabot-Megan McCafferty-Melissa Senate-Diana Peterfreund-Stephanie Lessing-Laura Ruby-Erica Orloff-Stace... (335)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:38:23 jdbc[10620]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Stephen Chbosky-William Clifford-Matthew Loren Cohen-Aury Wallington-Dennis G. Dillingham Jr.-Davy Rothbart-Clementyne Howard-M... (286)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:38:27 jdbc[10739]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Glenn Yeffeth-Don DeBrandt-Cory Doctorow-Bruce Bethke-Adam Roberts-Lawrence Watt-Evans-Selina Rosen-Mark W. Tiedemann-Jacquelin... (301)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:38:27 jdbc[10755]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Arthur  Miller-Gerald Weales-Henry Steele Commager-Penelope Curtis-Stephen Fender-Henry Hewes-Harold Hobson-Albert... (458)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:38:32 jdbc[10915]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Garrison Keillor-Charles Bukowski-Robert Burns-Hayden Carruth-Raymond Carver-Billy Collins-No\u00ebl Coward-Carl D... (750)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:42:34 jdbc[1415]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David Sedaris-Richard Yates-Dorothy Parker-Joyce Carol Oates-Lorrie Moore-Flannery O''Connor-Amy Hempel-Akhil   Sharma-Tim John... (277)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:43:01 jdbc[2407]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David W. Macdonald-Alonzo C. Addison-Sandra Baker-Mark S. Boyce-David Brown-Stephen Cobb-N. Mark Collins-C. Patrick Doncaster-J... (361)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:43:03 jdbc[2501]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('James Joyce-Walter Hettche-Hans Walter Gabler-John Paul Riquelme-John Mitchel-Michael Davitt-Canon  Doyle-P\u00e1d... (372)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:43:18 jdbc[3038]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Plato-John M. Cooper-Benjamin Jowett-Dorothea Frede-Alexander Nehamas-Paul Woodruff-Anthony Kenny-Rosamond Kent Sp... (540)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:43:31 jdbc[3530]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Cecelia Ahern-Patricia Scanlan-Gemma O''Connor-Sarah Webb-Maeve Binchy-Marian Keyes-Morag Prunty-Cathy Kelly-Colette Caddle-Mar... (329)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:43:37 jdbc[3744]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'The Paris Review-Philip Gourevitch-Rebecca West-Elizabeth Bishop-Robert  Stone-Robert Gottlieb-Richard Price-Billy Wilder-Jack ... (261)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:44:01 jdbc[4705]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Mercedes Lackey-Rosemary Edghill-Sarah A. Hoyt-Tanya Huff-Fiona Patton-Janni Lee Simner-Mickey Zucker Reichert-Judith Tarr-Larr... (260)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:44:02 jdbc[4716]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Mercedes Lackey-Tanya Huff-Mickey Zucker Reichert-Michelle Sagara West-Gary A. Braunbeck-John Helfers-Elisabeth Waters-Lawrence... (308)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:44:12 jdbc[5132]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "TITLE VARCHAR(255)": "STRINGDECODE('C\"" Is For Corpse (Kinsey Millhone #3),Sue Grafton,3.89,156865233X,9781568652337,eng,181,87,5\n15323,The Lord of t... (65535)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:44:31 jdbc[5866]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Delia Sherman-Theodora Goss-K. Tempest Bradford-Karen Jordan Allen-Rachel Pollack-Veronica Schanoes-Mikal Trimm-Co... (324)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:44:32 jdbc[5910]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Gary Russell-Peter Anghelides-J. Shaun Lyon-Jon de Burgh Miller-Eddie Robson-Todd Green-Andy Russell-Andrew Collins-Kathryn Sul... (274)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:44:34 jdbc[5998]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Martin H. Greenberg-Brittiany A. Koren-Brian Stableford-Mickey Zucker Reichert-Fiona Patton-Jim C. Hines-Esther M. Friesner-Don... (291)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:44:35 jdbc[6000]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Martin H. Greenberg-Jack Nimersheim-Jane Yolen-Jack C. Haldeman II-Harry Turtledove-Laura Resnick-Mike Resnick-Karen Haber-Jane... (353)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:44:35 jdbc[6001]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('John Helfers-Esther M. Friesner-Nina Kiriki Hoffman-Bruce Holland Rogers-Peter Crowther-R. Davis-Charles de Lint-E... (331)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:44:35 jdbc[6002]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Jean Rabe-Martin H. Greenberg-Stephen Leigh-Gene DeWeese-Joe Masdon-Donald J. Bingle-Skip Williams-Penny Williams-Pierce Askegr... (303)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:44:39 jdbc[6156]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'James Ellroy-Otto Penzler-John Biguenet-Michael Connelly-Thomas H. Cook-Sean Doolittle-Brendan DuBois-David Edgerley Gates-Joe ... (309)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:44:43 jdbc[6319]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Rob Thomas-Leah Wilson-Heather Havrilesky-Amy Berner-Lynne Edwards-John  Ramos-Alafair Burke-Chris McCubbin-Lawrence Watt-Evans... (288)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:44:53 jdbc[6739]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Douglas A. Anderson-Frank R. Stockton-Ludwig Tieck-Richard Garnett-H. Rider Haggard-Andrew Lang-William Hope Hodgson-E.A. Wyke-... (334)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:44:55 jdbc[6802]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David G. Hartwell-Robert Aickman-Charlotte Perkins Gilman-William Faulkner-Robert Smythe Hichens-Richard Matheson-Joanna Russ-D... (339)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:44:55 jdbc[6803]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David G. Hartwell-Fritz Leiber-Fitz-James O''Brien-Shirley Jackson-Ambrose Bierce-Edith Wharton-Algernon Blackwood-Thomas M. Di... (282)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:45:28 jdbc[8075]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Margaret Weis-Esther M. Friesner-Roger Zelazny-Bruce Holland Rogers-Robin Wayne Bailey-Janet Pack-Lawrence Schimel-Jody Lynn Ny... (285)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:45:29 jdbc[8097]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Margaret Weis-Jane Lindskold-Linda Baker-Kathleen M. Massie-Ferch-Cynthia Ward-Lawrence C. Connolly-John Tigges-Kate Novak-Jane... (321)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:45:34 jdbc[8296]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Margaret Weis-Ursula K. Le Guin-Roger Zelazny-Christopher Stasheff-Mercedes Lackey-Ray Bradbury-Andre Norton-Jack Vance-Raymond... (329)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:45:34 jdbc[8306]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Margaret Weis-Janet Pack-Bruce Holland Rogers-Nina Kiriki Hoffman-Tanya Huff-Linda P. Baker-Michelle Sagara West-N... (289)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:45:50 jdbc[8912]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Nicholas Dawidoff-Ernest Lawrence Thayer-Jacques Barzun-Robert Frost-John Updike-Leroy Satchel Paige-Bill Veeck-Murray Kempton-... (571)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:46:03 jdbc[9389]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Mike Ashley-Eric Brown-Keith Brooke-Johan Heliot-Kevin J. Anderson-Sarah A. Hoyt-Justina Robson-Adam Roberts-Paul Di Filippo-Ti... (353)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:46:07 jdbc[9541]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Bill Buford-Clive Sinclair-Graham Swift-Martin Amis-Rose Tremain-A.N. Wilson-Pat Barker-Julian Barnes-Ursula Bentl... (293)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:46:09 jdbc[9605]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'James Patterson-Ted Bell-Raelynn Hillhouse-Gregg Hurwitz-Alex Kava-J.A. Konrath-John Lescroart-David Liss-Eric Van Lustbader-De... (461)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:46:09 jdbc[9618]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Lauren Henderson-Chris Manby-Sarah Mlynowski-Jill A. Davis-Stella Duffy-Lisa Jewell-Marian Keyes-Sophie Kinsella-A... (287)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:46:14 jdbc[9816]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AVERAGE_RATING VARCHAR(255)": "STRINGDECODE('Jr.-C.S. Lewis-P.G. Wodehouse-Michael Moorcock-L. Sprague de Camp-Fletcher Pratt-Eric Knight-Mervyn Peake-Piers An... (298)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:46:21 jdbc[10038]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Dave Land-Peter David-Dave Cooper-Dan Jolley-Doug Wheatley-Tom Fowler-Kilian Plunkett-Sean Phillips-Ryder Windham-John Ostrande... (317)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:46:26 jdbc[10218]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('H.P. Lovecraft-James Turner-Clark Ashton Smith-Robert E. Howard-Frank Belknap Long-August Derleth-Robert Bloch-Hen... (260)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:46:34 jdbc[10516]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Jennifer O''Connell-Meg Cabot-Megan McCafferty-Melissa Senate-Diana Peterfreund-Stephanie Lessing-Laura Ruby-Erica Orloff-Stace... (335)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:46:36 jdbc[10620]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Stephen Chbosky-William Clifford-Matthew Loren Cohen-Aury Wallington-Dennis G. Dillingham Jr.-Davy Rothbart-Clementyne Howard-M... (286)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:46:39 jdbc[10739]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Glenn Yeffeth-Don DeBrandt-Cory Doctorow-Bruce Bethke-Adam Roberts-Lawrence Watt-Evans-Selina Rosen-Mark W. Tiedemann-Jacquelin... (301)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:46:40 jdbc[10755]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Arthur  Miller-Gerald Weales-Henry Steele Commager-Penelope Curtis-Stephen Fender-Henry Hewes-Harold Hobson-Albert... (458)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:46:45 jdbc[10915]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Garrison Keillor-Charles Bukowski-Robert Burns-Hayden Carruth-Raymond Carver-Billy Collins-No\u00ebl Coward-Carl D... (750)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:49:22 jdbc[1415]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David Sedaris-Richard Yates-Dorothy Parker-Joyce Carol Oates-Lorrie Moore-Flannery O''Connor-Amy Hempel-Akhil   Sharma-Tim John... (277)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:49:47 jdbc[2407]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David W. Macdonald-Alonzo C. Addison-Sandra Baker-Mark S. Boyce-David Brown-Stephen Cobb-N. Mark Collins-C. Patrick Doncaster-J... (361)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:49:50 jdbc[2501]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('James Joyce-Walter Hettche-Hans Walter Gabler-John Paul Riquelme-John Mitchel-Michael Davitt-Canon  Doyle-P\u00e1d... (372)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:50:04 jdbc[3038]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Plato-John M. Cooper-Benjamin Jowett-Dorothea Frede-Alexander Nehamas-Paul Woodruff-Anthony Kenny-Rosamond Kent Sp... (540)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:50:15 jdbc[3530]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Cecelia Ahern-Patricia Scanlan-Gemma O''Connor-Sarah Webb-Maeve Binchy-Marian Keyes-Morag Prunty-Cathy Kelly-Colette Caddle-Mar... (329)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:50:20 jdbc[3744]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'The Paris Review-Philip Gourevitch-Rebecca West-Elizabeth Bishop-Robert  Stone-Robert Gottlieb-Richard Price-Billy Wilder-Jack ... (261)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:50:43 jdbc[4705]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Mercedes Lackey-Rosemary Edghill-Sarah A. Hoyt-Tanya Huff-Fiona Patton-Janni Lee Simner-Mickey Zucker Reichert-Judith Tarr-Larr... (260)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:50:44 jdbc[4716]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Mercedes Lackey-Tanya Huff-Mickey Zucker Reichert-Michelle Sagara West-Gary A. Braunbeck-John Helfers-Elisabeth Waters-Lawrence... (308)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:50:54 jdbc[5132]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "TITLE VARCHAR(255)": "STRINGDECODE('C\"" Is For Corpse (Kinsey Millhone #3),Sue Grafton,3.89,156865233X,9781568652337,eng,181,87,5\n15323,The Lord of t... (65535)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:51:12 jdbc[5866]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Delia Sherman-Theodora Goss-K. Tempest Bradford-Karen Jordan Allen-Rachel Pollack-Veronica Schanoes-Mikal Trimm-Co... (324)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:51:12 jdbc[5910]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Gary Russell-Peter Anghelides-J. Shaun Lyon-Jon de Burgh Miller-Eddie Robson-Todd Green-Andy Russell-Andrew Collins-Kathryn Sul... (274)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:51:14 jdbc[5998]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Martin H. Greenberg-Brittiany A. Koren-Brian Stableford-Mickey Zucker Reichert-Fiona Patton-Jim C. Hines-Esther M. Friesner-Don... (291)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:51:14 jdbc[6000]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Martin H. Greenberg-Jack Nimersheim-Jane Yolen-Jack C. Haldeman II-Harry Turtledove-Laura Resnick-Mike Resnick-Karen Haber-Jane... (353)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:51:14 jdbc[6001]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('John Helfers-Esther M. Friesner-Nina Kiriki Hoffman-Bruce Holland Rogers-Peter Crowther-R. Davis-Charles de Lint-E... (331)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:51:14 jdbc[6002]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Jean Rabe-Martin H. Greenberg-Stephen Leigh-Gene DeWeese-Joe Masdon-Donald J. Bingle-Skip Williams-Penny Williams-Pierce Askegr... (303)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:51:15 jdbc[6156]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'James Ellroy-Otto Penzler-John Biguenet-Michael Connelly-Thomas H. Cook-Sean Doolittle-Brendan DuBois-David Edgerley Gates-Joe ... (309)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:51:18 jdbc[6319]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Rob Thomas-Leah Wilson-Heather Havrilesky-Amy Berner-Lynne Edwards-John  Ramos-Alafair Burke-Chris McCubbin-Lawrence Watt-Evans... (288)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:51:23 jdbc[6739]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Douglas A. Anderson-Frank R. Stockton-Ludwig Tieck-Richard Garnett-H. Rider Haggard-Andrew Lang-William Hope Hodgson-E.A. Wyke-... (334)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:51:24 jdbc[6802]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David G. Hartwell-Robert Aickman-Charlotte Perkins Gilman-William Faulkner-Robert Smythe Hichens-Richard Matheson-Joanna Russ-D... (339)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:51:24 jdbc[6803]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David G. Hartwell-Fritz Leiber-Fitz-James O''Brien-Shirley Jackson-Ambrose Bierce-Edith Wharton-Algernon Blackwood-Thomas M. Di... (282)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:51:39 jdbc[8075]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Margaret Weis-Esther M. Friesner-Roger Zelazny-Bruce Holland Rogers-Robin Wayne Bailey-Janet Pack-Lawrence Schimel-Jody Lynn Ny... (285)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:51:39 jdbc[8097]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Margaret Weis-Jane Lindskold-Linda Baker-Kathleen M. Massie-Ferch-Cynthia Ward-Lawrence C. Connolly-John Tigges-Kate Novak-Jane... (321)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:51:42 jdbc[8296]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Margaret Weis-Ursula K. Le Guin-Roger Zelazny-Christopher Stasheff-Mercedes Lackey-Ray Bradbury-Andre Norton-Jack Vance-Raymond... (329)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:51:42 jdbc[8306]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Margaret Weis-Janet Pack-Bruce Holland Rogers-Nina Kiriki Hoffman-Tanya Huff-Linda P. Baker-Michelle Sagara West-N... (289)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:51:50 jdbc[8912]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Nicholas Dawidoff-Ernest Lawrence Thayer-Jacques Barzun-Robert Frost-John Updike-Leroy Satchel Paige-Bill Veeck-Murray Kempton-... (571)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:51:56 jdbc[9389]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Mike Ashley-Eric Brown-Keith Brooke-Johan Heliot-Kevin J. Anderson-Sarah A. Hoyt-Justina Robson-Adam Roberts-Paul Di Filippo-Ti... (353)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:51:58 jdbc[9541]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Bill Buford-Clive Sinclair-Graham Swift-Martin Amis-Rose Tremain-A.N. Wilson-Pat Barker-Julian Barnes-Ursula Bentl... (293)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:51:59 jdbc[9605]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'James Patterson-Ted Bell-Raelynn Hillhouse-Gregg Hurwitz-Alex Kava-J.A. Konrath-John Lescroart-David Liss-Eric Van Lustbader-De... (461)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:52:00 jdbc[9618]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Lauren Henderson-Chris Manby-Sarah Mlynowski-Jill A. Davis-Stella Duffy-Lisa Jewell-Marian Keyes-Sophie Kinsella-A... (287)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:52:02 jdbc[9816]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AVERAGE_RATING VARCHAR(255)": "STRINGDECODE('Jr.-C.S. Lewis-P.G. Wodehouse-Michael Moorcock-L. Sprague de Camp-Fletcher Pratt-Eric Knight-Mervyn Peake-Piers An... (298)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:52:05 jdbc[10038]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Dave Land-Peter David-Dave Cooper-Dan Jolley-Doug Wheatley-Tom Fowler-Kilian Plunkett-Sean Phillips-Ryder Windham-John Ostrande... (317)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:52:08 jdbc[10218]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('H.P. Lovecraft-James Turner-Clark Ashton Smith-Robert E. Howard-Frank Belknap Long-August Derleth-Robert Bloch-Hen... (260)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:52:12 jdbc[10516]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Jennifer O''Connell-Meg Cabot-Megan McCafferty-Melissa Senate-Diana Peterfreund-Stephanie Lessing-Laura Ruby-Erica Orloff-Stace... (335)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:52:14 jdbc[10620]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Stephen Chbosky-William Clifford-Matthew Loren Cohen-Aury Wallington-Dennis G. Dillingham Jr.-Davy Rothbart-Clementyne Howard-M... (286)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:52:15 jdbc[10739]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Glenn Yeffeth-Don DeBrandt-Cory Doctorow-Bruce Bethke-Adam Roberts-Lawrence Watt-Evans-Selina Rosen-Mark W. Tiedemann-Jacquelin... (301)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:52:15 jdbc[10755]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Arthur  Miller-Gerald Weales-Henry Steele Commager-Penelope Curtis-Stephen Fender-Henry Hewes-Harold Hobson-Albert... (458)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:52:17 jdbc[10915]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Garrison Keillor-Charles Bukowski-Robert Burns-Hayden Carruth-Raymond Carver-Billy Collins-No\u00ebl Coward-Carl D... (750)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:54:47 jdbc[1415]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David Sedaris-Richard Yates-Dorothy Parker-Joyce Carol Oates-Lorrie Moore-Flannery O''Connor-Amy Hempel-Akhil   Sharma-Tim John... (277)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:55:01 jdbc[2407]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David W. Macdonald-Alonzo C. Addison-Sandra Baker-Mark S. Boyce-David Brown-Stephen Cobb-N. Mark Collins-C. Patrick Doncaster-J... (361)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:55:02 jdbc[2501]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('James Joyce-Walter Hettche-Hans Walter Gabler-John Paul Riquelme-John Mitchel-Michael Davitt-Canon  Doyle-P\u00e1d... (372)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:55:09 jdbc[3038]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Plato-John M. Cooper-Benjamin Jowett-Dorothea Frede-Alexander Nehamas-Paul Woodruff-Anthony Kenny-Rosamond Kent Sp... (540)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:55:15 jdbc[3530]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Cecelia Ahern-Patricia Scanlan-Gemma O''Connor-Sarah Webb-Maeve Binchy-Marian Keyes-Morag Prunty-Cathy Kelly-Colette Caddle-Mar... (329)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:55:18 jdbc[3744]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'The Paris Review-Philip Gourevitch-Rebecca West-Elizabeth Bishop-Robert  Stone-Robert Gottlieb-Richard Price-Billy Wilder-Jack ... (261)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:55:30 jdbc[4705]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Mercedes Lackey-Rosemary Edghill-Sarah A. Hoyt-Tanya Huff-Fiona Patton-Janni Lee Simner-Mickey Zucker Reichert-Judith Tarr-Larr... (260)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:55:30 jdbc[4716]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Mercedes Lackey-Tanya Huff-Mickey Zucker Reichert-Michelle Sagara West-Gary A. Braunbeck-John Helfers-Elisabeth Waters-Lawrence... (308)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:55:35 jdbc[5132]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "TITLE VARCHAR(255)": "STRINGDECODE('C\"" Is For Corpse (Kinsey Millhone #3),Sue Grafton,3.89,156865233X,9781568652337,eng,181,87,5\n15323,The Lord of t... (65535)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:55:44 jdbc[5866]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Delia Sherman-Theodora Goss-K. Tempest Bradford-Karen Jordan Allen-Rachel Pollack-Veronica Schanoes-Mikal Trimm-Co... (324)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:55:45 jdbc[5910]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Gary Russell-Peter Anghelides-J. Shaun Lyon-Jon de Burgh Miller-Eddie Robson-Todd Green-Andy Russell-Andrew Collins-Kathryn Sul... (274)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:55:46 jdbc[5998]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Martin H. Greenberg-Brittiany A. Koren-Brian Stableford-Mickey Zucker Reichert-Fiona Patton-Jim C. Hines-Esther M. Friesner-Don... (291)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:55:46 jdbc[6000]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Martin H. Greenberg-Jack Nimersheim-Jane Yolen-Jack C. Haldeman II-Harry Turtledove-Laura Resnick-Mike Resnick-Karen Haber-Jane... (353)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:55:46 jdbc[6001]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('John Helfers-Esther M. Friesner-Nina Kiriki Hoffman-Bruce Holland Rogers-Peter Crowther-R. Davis-Charles de Lint-E... (331)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:55:46 jdbc[6002]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Jean Rabe-Martin H. Greenberg-Stephen Leigh-Gene DeWeese-Joe Masdon-Donald J. Bingle-Skip Williams-Penny Williams-Pierce Askegr... (303)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:55:48 jdbc[6156]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'James Ellroy-Otto Penzler-John Biguenet-Michael Connelly-Thomas H. Cook-Sean Doolittle-Brendan DuBois-David Edgerley Gates-Joe ... (309)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:55:50 jdbc[6319]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Rob Thomas-Leah Wilson-Heather Havrilesky-Amy Berner-Lynne Edwards-John  Ramos-Alafair Burke-Chris McCubbin-Lawrence Watt-Evans... (288)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:55:55 jdbc[6739]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Douglas A. Anderson-Frank R. Stockton-Ludwig Tieck-Richard Garnett-H. Rider Haggard-Andrew Lang-William Hope Hodgson-E.A. Wyke-... (334)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:55:56 jdbc[6802]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David G. Hartwell-Robert Aickman-Charlotte Perkins Gilman-William Faulkner-Robert Smythe Hichens-Richard Matheson-Joanna Russ-D... (339)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:55:56 jdbc[6803]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David G. Hartwell-Fritz Leiber-Fitz-James O''Brien-Shirley Jackson-Ambrose Bierce-Edith Wharton-Algernon Blackwood-Thomas M. Di... (282)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:56:11 jdbc[8075]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Margaret Weis-Esther M. Friesner-Roger Zelazny-Bruce Holland Rogers-Robin Wayne Bailey-Janet Pack-Lawrence Schimel-Jody Lynn Ny... (285)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:56:12 jdbc[8097]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Margaret Weis-Jane Lindskold-Linda Baker-Kathleen M. Massie-Ferch-Cynthia Ward-Lawrence C. Connolly-John Tigges-Kate Novak-Jane... (321)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:56:14 jdbc[8296]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Margaret Weis-Ursula K. Le Guin-Roger Zelazny-Christopher Stasheff-Mercedes Lackey-Ray Bradbury-Andre Norton-Jack Vance-Raymond... (329)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:56:14 jdbc[8306]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Margaret Weis-Janet Pack-Bruce Holland Rogers-Nina Kiriki Hoffman-Tanya Huff-Linda P. Baker-Michelle Sagara West-N... (289)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:56:21 jdbc[8912]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Nicholas Dawidoff-Ernest Lawrence Thayer-Jacques Barzun-Robert Frost-John Updike-Leroy Satchel Paige-Bill Veeck-Murray Kempton-... (571)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:56:27 jdbc[9389]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Mike Ashley-Eric Brown-Keith Brooke-Johan Heliot-Kevin J. Anderson-Sarah A. Hoyt-Justina Robson-Adam Roberts-Paul Di Filippo-Ti... (353)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:56:29 jdbc[9541]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Bill Buford-Clive Sinclair-Graham Swift-Martin Amis-Rose Tremain-A.N. Wilson-Pat Barker-Julian Barnes-Ursula Bentl... (293)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:56:29 jdbc[9605]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'James Patterson-Ted Bell-Raelynn Hillhouse-Gregg Hurwitz-Alex Kava-J.A. Konrath-John Lescroart-David Liss-Eric Van Lustbader-De... (461)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:56:30 jdbc[9618]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Lauren Henderson-Chris Manby-Sarah Mlynowski-Jill A. Davis-Stella Duffy-Lisa Jewell-Marian Keyes-Sophie Kinsella-A... (287)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:56:32 jdbc[9816]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AVERAGE_RATING VARCHAR(255)": "STRINGDECODE('Jr.-C.S. Lewis-P.G. Wodehouse-Michael Moorcock-L. Sprague de Camp-Fletcher Pratt-Eric Knight-Mervyn Peake-Piers An... (298)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:56:35 jdbc[10038]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Dave Land-Peter David-Dave Cooper-Dan Jolley-Doug Wheatley-Tom Fowler-Kilian Plunkett-Sean Phillips-Ryder Windham-John Ostrande... (317)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:56:37 jdbc[10218]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('H.P. Lovecraft-James Turner-Clark Ashton Smith-Robert E. Howard-Frank Belknap Long-August Derleth-Robert Bloch-Hen... (260)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:56:40 jdbc[10516]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Jennifer O''Connell-Meg Cabot-Megan McCafferty-Melissa Senate-Diana Peterfreund-Stephanie Lessing-Laura Ruby-Erica Orloff-Stace... (335)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:56:41 jdbc[10620]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Stephen Chbosky-William Clifford-Matthew Loren Cohen-Aury Wallington-Dennis G. Dillingham Jr.-Davy Rothbart-Clementyne Howard-M... (286)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:56:43 jdbc[10739]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Glenn Yeffeth-Don DeBrandt-Cory Doctorow-Bruce Bethke-Adam Roberts-Lawrence Watt-Evans-Selina Rosen-Mark W. Tiedemann-Jacquelin... (301)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:56:43 jdbc[10755]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Arthur  Miller-Gerald Weales-Henry Steele Commager-Penelope Curtis-Stephen Fender-Henry Hewes-Harold Hobson-Albert... (458)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:56:45 jdbc[10915]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Garrison Keillor-Charles Bukowski-Robert Burns-Hayden Carruth-Raymond Carver-Billy Collins-No\u00ebl Coward-Carl D... (750)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:59:14 jdbc[1415]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David Sedaris-Richard Yates-Dorothy Parker-Joyce Carol Oates-Lorrie Moore-Flannery O''Connor-Amy Hempel-Akhil   Sharma-Tim John... (277)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:59:28 jdbc[2407]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David W. Macdonald-Alonzo C. Addison-Sandra Baker-Mark S. Boyce-David Brown-Stephen Cobb-N. Mark Collins-C. Patrick Doncaster-J... (361)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:59:29 jdbc[2501]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('James Joyce-Walter Hettche-Hans Walter Gabler-John Paul Riquelme-John Mitchel-Michael Davitt-Canon  Doyle-P\u00e1d... (372)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:59:36 jdbc[3038]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Plato-John M. Cooper-Benjamin Jowett-Dorothea Frede-Alexander Nehamas-Paul Woodruff-Anthony Kenny-Rosamond Kent Sp... (540)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:59:43 jdbc[3530]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Cecelia Ahern-Patricia Scanlan-Gemma O''Connor-Sarah Webb-Maeve Binchy-Marian Keyes-Morag Prunty-Cathy Kelly-Colette Caddle-Mar... (329)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:59:45 jdbc[3744]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'The Paris Review-Philip Gourevitch-Rebecca West-Elizabeth Bishop-Robert  Stone-Robert Gottlieb-Richard Price-Billy Wilder-Jack ... (261)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:59:57 jdbc[4705]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Mercedes Lackey-Rosemary Edghill-Sarah A. Hoyt-Tanya Huff-Fiona Patton-Janni Lee Simner-Mickey Zucker Reichert-Judith Tarr-Larr... (260)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 12:59:57 jdbc[4716]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Mercedes Lackey-Tanya Huff-Mickey Zucker Reichert-Michelle Sagara West-Gary A. Braunbeck-John Helfers-Elisabeth Waters-Lawrence... (308)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:00:03 jdbc[5132]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "TITLE VARCHAR(255)": "STRINGDECODE('C\"" Is For Corpse (Kinsey Millhone #3),Sue Grafton,3.89,156865233X,9781568652337,eng,181,87,5\n15323,The Lord of t... (65535)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:00:12 jdbc[5866]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Delia Sherman-Theodora Goss-K. Tempest Bradford-Karen Jordan Allen-Rachel Pollack-Veronica Schanoes-Mikal Trimm-Co... (324)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:00:12 jdbc[5910]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Gary Russell-Peter Anghelides-J. Shaun Lyon-Jon de Burgh Miller-Eddie Robson-Todd Green-Andy Russell-Andrew Collins-Kathryn Sul... (274)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:00:14 jdbc[5998]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Martin H. Greenberg-Brittiany A. Koren-Brian Stableford-Mickey Zucker Reichert-Fiona Patton-Jim C. Hines-Esther M. Friesner-Don... (291)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:00:14 jdbc[6000]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Martin H. Greenberg-Jack Nimersheim-Jane Yolen-Jack C. Haldeman II-Harry Turtledove-Laura Resnick-Mike Resnick-Karen Haber-Jane... (353)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:00:14 jdbc[6001]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('John Helfers-Esther M. Friesner-Nina Kiriki Hoffman-Bruce Holland Rogers-Peter Crowther-R. Davis-Charles de Lint-E... (331)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:00:14 jdbc[6002]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Jean Rabe-Martin H. Greenberg-Stephen Leigh-Gene DeWeese-Joe Masdon-Donald J. Bingle-Skip Williams-Penny Williams-Pierce Askegr... (303)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:00:16 jdbc[6156]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'James Ellroy-Otto Penzler-John Biguenet-Michael Connelly-Thomas H. Cook-Sean Doolittle-Brendan DuBois-David Edgerley Gates-Joe ... (309)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:00:18 jdbc[6319]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Rob Thomas-Leah Wilson-Heather Havrilesky-Amy Berner-Lynne Edwards-John  Ramos-Alafair Burke-Chris McCubbin-Lawrence Watt-Evans... (288)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:00:23 jdbc[6739]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Douglas A. Anderson-Frank R. Stockton-Ludwig Tieck-Richard Garnett-H. Rider Haggard-Andrew Lang-William Hope Hodgson-E.A. Wyke-... (334)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:00:24 jdbc[6802]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David G. Hartwell-Robert Aickman-Charlotte Perkins Gilman-William Faulkner-Robert Smythe Hichens-Richard Matheson-Joanna Russ-D... (339)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:00:24 jdbc[6803]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'David G. Hartwell-Fritz Leiber-Fitz-James O''Brien-Shirley Jackson-Ambrose Bierce-Edith Wharton-Algernon Blackwood-Thomas M. Di... (282)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:00:39 jdbc[8075]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Margaret Weis-Esther M. Friesner-Roger Zelazny-Bruce Holland Rogers-Robin Wayne Bailey-Janet Pack-Lawrence Schimel-Jody Lynn Ny... (285)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:00:39 jdbc[8097]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Margaret Weis-Jane Lindskold-Linda Baker-Kathleen M. Massie-Ferch-Cynthia Ward-Lawrence C. Connolly-John Tigges-Kate Novak-Jane... (321)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:00:41 jdbc[8296]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Margaret Weis-Ursula K. Le Guin-Roger Zelazny-Christopher Stasheff-Mercedes Lackey-Ray Bradbury-Andre Norton-Jack Vance-Raymond... (329)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:00:41 jdbc[8306]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Margaret Weis-Janet Pack-Bruce Holland Rogers-Nina Kiriki Hoffman-Tanya Huff-Linda P. Baker-Michelle Sagara West-N... (289)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:00:48 jdbc[8912]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Nicholas Dawidoff-Ernest Lawrence Thayer-Jacques Barzun-Robert Frost-John Updike-Leroy Satchel Paige-Bill Veeck-Murray Kempton-... (571)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:00:54 jdbc[9389]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Mike Ashley-Eric Brown-Keith Brooke-Johan Heliot-Kevin J. Anderson-Sarah A. Hoyt-Justina Robson-Adam Roberts-Paul Di Filippo-Ti... (353)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:00:55 jdbc[9541]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Bill Buford-Clive Sinclair-Graham Swift-Martin Amis-Rose Tremain-A.N. Wilson-Pat Barker-Julian Barnes-Ursula Bentl... (293)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:00:56 jdbc[9605]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'James Patterson-Ted Bell-Raelynn Hillhouse-Gregg Hurwitz-Alex Kava-J.A. Konrath-John Lescroart-David Liss-Eric Van Lustbader-De... (461)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:00:56 jdbc[9618]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Lauren Henderson-Chris Manby-Sarah Mlynowski-Jill A. Davis-Stella Duffy-Lisa Jewell-Marian Keyes-Sophie Kinsella-A... (287)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:00:59 jdbc[9816]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AVERAGE_RATING VARCHAR(255)": "STRINGDECODE('Jr.-C.S. Lewis-P.G. Wodehouse-Michael Moorcock-L. Sprague de Camp-Fletcher Pratt-Eric Knight-Mervyn Peake-Piers An... (298)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:01:01 jdbc[10038]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Dave Land-Peter David-Dave Cooper-Dan Jolley-Doug Wheatley-Tom Fowler-Kilian Plunkett-Sean Phillips-Ryder Windham-John Ostrande... (317)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:01:04 jdbc[10218]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('H.P. Lovecraft-James Turner-Clark Ashton Smith-Robert E. Howard-Frank Belknap Long-August Derleth-Robert Bloch-Hen... (260)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:01:07 jdbc[10516]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Jennifer O''Connell-Meg Cabot-Megan McCafferty-Melissa Senate-Diana Peterfreund-Stephanie Lessing-Laura Ruby-Erica Orloff-Stace... (335)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:01:08 jdbc[10620]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Stephen Chbosky-William Clifford-Matthew Loren Cohen-Aury Wallington-Dennis G. Dillingham Jr.-Davy Rothbart-Clementyne Howard-M... (286)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:01:10 jdbc[10739]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "'Glenn Yeffeth-Don DeBrandt-Cory Doctorow-Bruce Bethke-Adam Roberts-Lawrence Watt-Evans-Selina Rosen-Mark W. Tiedemann-Jacquelin... (301)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:01:10 jdbc[10755]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Arthur  Miller-Gerald Weales-Henry Steele Commager-Penelope Curtis-Stephen Fender-Henry Hewes-Harold Hobson-Albert... (458)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
+2021-08-28 13:01:12 jdbc[10915]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AUTHORS VARCHAR(255)": "STRINGDECODE('Garrison Keillor-Charles Bukowski-Robert Burns-Hayden Carruth-Raymond Carver-Billy Collins-No\u00ebl Coward-Carl D... (750)"; SQL statement:
+insert into book (authors, average_rating, isbn, language_code, price, ratings_count, title, bookID) values (?, ?, ?, ?, ?, ?, ?, ?) [22001-200]
